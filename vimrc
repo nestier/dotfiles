@@ -18,6 +18,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 " Add plugins to &runtimepath
 call plug#end()
 map <LEADER>c :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
 "Editor:---------------------------------------------------------------{{{
 " make backspace work like most other apps
 set backspace=2
