@@ -10,6 +10,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'klen/python-mode'
 Plug 'tomtom/tcomment_vim'          " easy code commenting
 Plug 'Glench/Vim-Jinja2-Syntax'         " Jinja2 support
+Plug 'scrooloose/syntastic'
 " NerdTree
 Plug 'scrooloose/nerdtree', {'on':  ['NERDTreeToggle', 'NERDTreeFind']}
 Plug 'jistr/vim-nerdtree-tabs'
@@ -18,6 +19,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 " Add plugins to &runtimepath
 call plug#end()
 map <LEADER>c :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$']
 "Editor:---------------------------------------------------------------{{{
 " make backspace work like most other apps
 set backspace=2
