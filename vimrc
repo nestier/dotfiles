@@ -1,4 +1,5 @@
 set nocompatible    " be iMproved, required
+set term=screen-256color
 filetype off        " required
 
 let mapleader=","
@@ -73,7 +74,7 @@ endif
 " Always show status line
 set laststatus=2
 " Enable mouse in all modes
-set mouse=a
+set mouse=r
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
